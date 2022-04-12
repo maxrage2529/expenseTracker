@@ -1,0 +1,24 @@
+,Date,Activity,Source/Destination,Comment,Debit,Credit
+13,2020-11-02 12:50:04,Cashback received,Perfetti Van Melle India Pvt Ltd Order #GRTCASH-619336750,0,0.0,10.0
+14,2020-11-02 12:11:26,Paid for order,shyam bakery Order #202002111211250028,0,10.0,0.0
+15,2020-11-02 12:10:30,Paid for order,shyam bakery Order #202002111210290028,0,25.0,0.0
+16,2020-11-02 11:57:48,Paid for order,Order #SM_914ED6A64B591273,From: KANCHAN KANWAR  To: Vidit,185.0,0.0
+5,2020-10-05 08:29:00,Paid for order,Paytm BSNL Mobile Recharge Order #11039409684,0,99.0,0.0
+22,2020-08-14 17:14:26,Paid for order,Sharma Ji Dairy Order #202008141714190002,0,40.0,0.0
+19,2020-07-04 09:56:16,Cashback received,Paytm Recharge Order #GRTCASH-862830327,0,0.0,25.0
+20,2020-07-04 09:56:13,Paid for order,Paytm Airtel Mobile Recharge Order #10698742716,0,399.0,0.0
+21,2020-07-04 09:54:52,Added to wallet,Paytm Recharge Order #10698522249,0,0.0,380.0
+4,2020-06-22 18:00:08,Cashback received,Paytm Order #GRTCASH-936761730,0,0.0,10.0
+17,2020-06-02 13:17:56,Money sent,Order #SM_BBA321DB834C3DAE,From: KANCHAN KANWAR  To: Pky,120.0,0.0
+7,2020-05-30 08:28:05,Paid for order,Paytm BSNL Mobile Recharge Order #11039409684,0,99.0,0.0
+8,2020-05-21 11:25:10,Added to wallet,Paytm Order #10987115108,0,0.0,100.0
+18,2020-05-02 14:48:21,Money sent,Order #SM_EFE4EA3068624460,From: KANCHAN KANWAR  To: Yadav Madhu,20.0,0.0
+9,2020-02-29 11:11:59,Cashback received,Paytm Order #GRTCASH-819170061,0,0.0,16.0
+11,2020-02-29 09:57:11,Paid for order,Paytm BSNL Mobile Recharge Order #10439073616,0,319.0,0.0
+12,2020-02-29 09:55:05,Added to wallet,Paytm Order #10439085020,0,0.0,70.0
+23,2020-01-08 08:04:29,Paid for order,Chomu fal Sabji bhandar Order #202008010804140053,0,60.0,0.0
+24,2020-01-08 08:03:59,Added to wallet,Paytm Order #11412706041,0,0.0,100.0
+0,2019-12-28 15:17:59,Paid for order,Paytm Airtel Mobile Recharge Order #9996662058,0,10.0,0.0
+1,2019-12-26 12:07:17,Paid for order,Paytm Airtel Mobile Recharge Order #9981871163,0,23.0,0.0
+2,2019-12-15 12:13:58,Cashback received,Paytm Order #GE_667653461_0,0,0.0,10.0
+3,2019-12-15 12:11:34,Paid for order,Paytm BSNL Mobile Recharge Order #9906416020,0,99.0,0.0

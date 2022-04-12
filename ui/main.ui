@@ -1,0 +1,1712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1323</width>
+    <height>890</height>
+   </rect>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>65</y>
+      <width>1250</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {	
+	background-color: rgba(61, 49, 103,0)	;
+	
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1250</width>
+       <height>800</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../resources/images/bg.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="expenseTrackerBt">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>171</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{
+border-radius:20px;
+color: rgb(255, 255, 255);
+background-color:rgba(150, 98, 223,0);
+}
+QToolButton:hover{
+border-radius:20px;
+color: rgb(255, 255, 255);
+background-color:rgba(150, 98, 223,0.4);
+}
+QToolButton:pressed{
+border-radius:20px;
+color: rgb(255, 97, 66);
+background-color:rgba(150, 98, 223,0.8);
+}</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../resources/images/ExpenseTracker.png</normaloff>../resources/images/ExpenseTracker.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>400</width>
+       <height>400</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="graphBt">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>171</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{
+border-radius:20px;
+color: rgb(255, 255, 255);
+background-color:rgba(150, 98, 223,0);
+}
+QToolButton:hover{
+border-radius:20px;
+color: rgb(255, 255, 255);
+background-color:rgba(150, 98, 223,0.4);
+}
+QToolButton:pressed{
+border-radius:20px;
+color: rgb(255, 97, 66);
+background-color:rgba(150, 98, 223,0.8);
+}</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../resources/images/GraphicalRepresentation.png</normaloff>../resources/images/GraphicalRepresentation.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>400</width>
+       <height>400</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="manageFilesBt">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>550</y>
+       <width>161</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{
+border-radius:20px;
+color: rgb(255, 255, 255);
+background-color:rgba(150, 98, 223,0);
+}
+QToolButton:hover{
+border-radius:20px;
+color: rgb(255, 255, 255);
+background-color:rgba(150, 98, 223,0.4);
+
+}
+QToolButton:pressed{
+border-radius:20px;
+color: rgb(255, 97, 66);
+background-color:rgba(150, 98, 223,0.8);
+}</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../resources/images/ManageFiles.png</normaloff>../resources/images/ManageFiles.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>400</width>
+       <height>400</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 36pt &quot;Microsoft Himalaya&quot;;
+background-color: rgba(255, 255, 255,0);
+color: rgb(241, 241, 241);</string>
+     </property>
+     <property name="text">
+      <string>AMP</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>10</y>
+       <width>1051</width>
+       <height>771</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {	
+	background-color: rgba(61, 49, 103,0)	;
+	
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>-1</y>
+        <width>1051</width>
+        <height>771</height>
+       </rect>
+      </property>
+      <widget class="QWidget" name="aboutUsP">
+       <widget class="QFrame" name="frame_4">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>540</y>
+          <width>981</width>
+          <height>721</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>1021</width>
+          <height>741</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 255, 255,0);
+border-radius:18px;
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>20</y>
+           <width>231</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(61, 49, 97);
+
+color: rgb(53, 45, 93);
+color: rgb(248, 253, 255);
+font: 75 24pt &quot;MS Shell Dlg 2&quot;;
+font: 75 28pt &quot;Eras Bold ITC&quot;;</string>
+         </property>
+         <property name="text">
+          <string>About Us</string>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_8">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>981</width>
+           <height>641</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:23px;
+background-color: rgb(72, 49, 129);
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>80</y>
+            <width>881</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+font: 14pt &quot;Lucida Fax&quot;;
+color: rgb(240, 245, 173)</string>
+          </property>
+          <property name="text">
+           <string>This product is basically used to track your transactions in a meaningful </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>120</y>
+            <width>511</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+font: 14pt &quot;Lucida Fax&quot;;
+color: rgb(240, 245, 173)</string>
+          </property>
+          <property name="text">
+           <string>way to help user to track his/her money.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>170</y>
+            <width>861</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 14pt &quot;Eras Bold ITC&quot;;
+color:rgb(184, 202, 251);</string>
+          </property>
+          <property name="text">
+           <string>Created By : Manashvee , Prakash and Ajay</string>
+          </property>
+         </widget>
+         <widget class="QFrame" name="frame_9">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>250</y>
+            <width>921</width>
+            <height>361</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_16">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>10</y>
+             <width>421</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(61, 49, 97);
+color: rgb(53, 45, 93);
+color: rgb(68, 137, 179);
+font: 75 24pt &quot;MS Shell Dlg 2&quot;;
+font: 75 18pt &quot;Eras Bold ITC&quot;;</string>
+           </property>
+           <property name="text">
+            <string>How to use It?</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="showGraphP">
+       <widget class="QFrame" name="frame_11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>1021</width>
+          <height>741</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+border-radius:18px;
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="graphNameL">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>70</y>
+           <width>951</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(61, 49, 97);
+color: rgb(53, 45, 93);
+font: 75 24pt &quot;MS Shell Dlg 2&quot;;
+font: 75 14pt &quot;Eras Bold ITC&quot;;
+/*color: rgb(53, 45, 93);
+font: 75 18pt &quot;MS Shell Dlg 2&quot;;*/</string>
+         </property>
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="backBt">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>93</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{
+font: 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius:11px;
+color: rgb(255, 255, 255);
+background-color: rgb(72, 49, 129);
+}
+QPushButton:hover{
+border-radius:11px;
+color: rgb(255, 255, 255);
+background-color: rgb(75, 72, 173);
+}
+QPushButton:pressed{
+border-radius:11px;
+color: rgb(75, 72, 173);
+background-color: rgb(75, 72, 173);
+}</string>
+         </property>
+         <property name="text">
+          <string>Back</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="graphImgL">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>130</y>
+           <width>900</width>
+           <height>500</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="filter4">
+         <property name="geometry">
+          <rect>
+           <x>770</x>
+           <y>20</y>
+           <width>171</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+         border: 0px solid gray; /* border */
+         border-radius: 20px; /* rounded corners */
+         padding: 1px 18px 1px 3px; /* font padding */
+         color: #000;
+
+         font: normal normal 15px &quot;Microsoft YaHei&quot;;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 3px;
+    outline:0px;
+    
+}
+ /* After the drop-down, the entire drop-down form style */
+QComboBox QAbstractItemView {
+         outline: 0px; /* virtual frame of selected item */
+    color:  rgb(255, 255, 255);
+         background-color: rgb(0, 255, 255);
+ /* The background color of the entire drop-down window */
+		
+	background-color: rgb(4, 2, 154);
+         selection-background-color: rgb(75, 72, 173)
+ }
+/*QComboBox QAbstractScrollArea QScrollBar::handle:vertical {
+         border-radius: 5px; /* rounded corners 
+         background: rgb(160,160,160); /* The background color of the small square is dark gray lightblue 
+}*/
+QComboBox QAbstractScrollArea QScrollBar::handle:vertical:hover {
+         background: rgb(90, 91, 93); /* the background color of the small square is yellow */
+}
+ 
+ /* When set to editable (setEditable(true)) editable, the style of the editable area */
+QComboBox:editable {
+    background: rgba(15, 2, 154,0);
+}
+ 
+ /* Set to non-editable (setEditable(false))! When editable, the style of the entire QComboBox */
+QComboBox:!editable {
+	color: rgb(255, 255, 255);
+     background: #4b48ad
+}
+ 
+
+ /* When set to non-editable, click the style of the entire QComboBox */
+QComboBox:!editable:on {
+	color: rgb(255, 255, 255);
+     
+	background-color: qlineargradient(spread:pad, x1:0.453, y1:0.948955, x2:0.479, y2:0.0625, stop:0 rgba(146, 0, 127, 255), stop:1 rgba(61, 72, 255, 255));
+}
+ 
+ /* The style of the drop-down box when set to editable */
+QComboBox::drop-down:editable {
+    background:rgb(255, 255, 255);
+}
+ 
+ /* When set to editable, click the style of the drop-down box */
+QComboBox::drop-down:editable:on {
+    background: rgba(255, 255, 255,0);
+}</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>720</width>
+           <height>720</height>
+          </size>
+         </property>
+         <item>
+          <property name="text">
+           <string>All Time</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>This Year</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>This Month</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QToolButton" name="refreshBt3">
+         <property name="geometry">
+          <rect>
+           <x>960</x>
+           <y>20</y>
+           <width>41</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../resources/images/blueTick.png</normaloff>../resources/images/blueTick.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>720</width>
+           <height>720</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_12">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>650</y>
+           <width>1001</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:23px;
+background-color: rgb(72, 49, 129);
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_21">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>20</y>
+            <width>251</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(184, 202, 251);</string>
+          </property>
+          <property name="text">
+           <string>Total Money Debited :</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_22">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>20</y>
+            <width>251</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(184, 202, 251);</string>
+          </property>
+          <property name="text">
+           <string>Total Money Credited :</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_23">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>30</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 110, 120);</string>
+          </property>
+          <property name="text">
+           <string>₹</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="debitL2">
+          <property name="geometry">
+           <rect>
+            <x>820</x>
+            <y>30</y>
+            <width>151</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 110, 120);</string>
+          </property>
+          <property name="text">
+           <string>200</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_24">
+          <property name="geometry">
+           <rect>
+            <x>320</x>
+            <y>30</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(170, 255, 127);</string>
+          </property>
+          <property name="text">
+           <string>₹</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="creditL2">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>30</y>
+            <width>151</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(170, 255, 127);</string>
+          </property>
+          <property name="text">
+           <string>200</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>880</x>
+           <y>70</y>
+           <width>129</width>
+           <height>63</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../resources/images/scale.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="expenseTrackerP">
+       <widget class="QScrollArea" name="scrollArea">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1061</width>
+          <height>771</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(73, 49, 13,0);
+border:none;</string>
+        </property>
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>1059</width>
+           <height>769</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none;</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QScrollArea" name="scrollArea_3">
+            <property name="styleSheet">
+             <string notr="true">/*vertical style*/
+QScrollBar:vertical {
+    border:none;
+	background-color: rgba(59, 59, 90,0);
+    width:0px;
+    margin: 1px 0 1px 0;
+    border-radius:0px;
+}
+/*Handlebar vertically*/
+QScrollBar::handle:vertical {
+     
+	background-color: rgb(80, 8, 122);
+
+    border-radius:7px;
+}
+QScrollBar::handle:vertical:hover {
+    
+	background-color: rgb(255, 97, 187);
+}
+QScrollBar::handle:vertical:pressed {
+	background-color: rgb(170, 255, 255);
+}
+</string>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_4">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>79</width>
+               <height>1200</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>1200</height>
+              </size>
+             </property>
+             <widget class="QFrame" name="frame_5">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>10</y>
+                <width>1021</width>
+                <height>421</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:18px;
+</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <widget class="QLabel" name="label_8">
+               <property name="geometry">
+                <rect>
+                 <x>50</x>
+                 <y>50</y>
+                 <width>461</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(61, 49, 97);
+color: rgb(53, 45, 93);
+font: 75 24pt &quot;MS Shell Dlg 2&quot;;
+font: 75 18pt &quot;Eras Bold ITC&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Your Expense Tracker</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_9">
+               <property name="geometry">
+                <rect>
+                 <x>50</x>
+                 <y>40</y>
+                 <width>91</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Welcome Ajay</string>
+               </property>
+              </widget>
+              <widget class="QFrame" name="frame_3">
+               <property name="geometry">
+                <rect>
+                 <x>50</x>
+                 <y>120</y>
+                 <width>541</width>
+                 <height>271</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border-radius:23px;
+background-color: rgb(72, 49, 129);
+</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <widget class="QLabel" name="label_5">
+                <property name="geometry">
+                 <rect>
+                  <x>50</x>
+                  <y>130</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(184, 202, 251);</string>
+                </property>
+                <property name="text">
+                 <string>Total Money Debited :</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_7">
+                <property name="geometry">
+                 <rect>
+                  <x>50</x>
+                  <y>200</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(184, 202, 251);</string>
+                </property>
+                <property name="text">
+                 <string>Total Money Credited :</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_11">
+                <property name="geometry">
+                 <rect>
+                  <x>320</x>
+                  <y>140</y>
+                  <width>21</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 110, 120);</string>
+                </property>
+                <property name="text">
+                 <string>₹</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="debitL">
+                <property name="geometry">
+                 <rect>
+                  <x>340</x>
+                  <y>140</y>
+                  <width>151</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 110, 120);</string>
+                </property>
+                <property name="text">
+                 <string>200</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_13">
+                <property name="geometry">
+                 <rect>
+                  <x>320</x>
+                  <y>210</y>
+                  <width>21</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(170, 255, 127);</string>
+                </property>
+                <property name="text">
+                 <string>₹</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="creditL">
+                <property name="geometry">
+                 <rect>
+                  <x>340</x>
+                  <y>210</y>
+                  <width>151</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(170, 255, 127);</string>
+                </property>
+                <property name="text">
+                 <string>200</string>
+                </property>
+               </widget>
+               <widget class="QComboBox" name="filter3">
+                <property name="geometry">
+                 <rect>
+                  <x>270</x>
+                  <y>20</y>
+                  <width>131</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QComboBox {
+         border: 0px solid gray; /* border */
+         border-radius: 10px; /* rounded corners */
+         padding: 1px 18px 1px 3px; /* font padding */
+         color: #000;
+
+         font: normal normal 15px &quot;Microsoft YaHei&quot;;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 3px;
+    outline:0px;
+    
+}
+ /* After the drop-down, the entire drop-down form style */
+QComboBox QAbstractItemView {
+         outline: 0px; /* virtual frame of selected item */
+    color:  rgb(255, 255, 255);
+         background-color: rgb(0, 255, 255);
+ /* The background color of the entire drop-down window */
+		
+	background-color: rgb(4, 2, 154);
+         selection-background-color: rgb(75, 72, 173)
+ }
+/*QComboBox QAbstractScrollArea QScrollBar::handle:vertical {
+         border-radius: 5px; /* rounded corners 
+         background: rgb(160,160,160); /* The background color of the small square is dark gray lightblue 
+}*/
+QComboBox QAbstractScrollArea QScrollBar::handle:vertical:hover {
+         background: rgb(90, 91, 93); /* the background color of the small square is yellow */
+}
+ 
+ /* When set to editable (setEditable(true)) editable, the style of the editable area */
+QComboBox:editable {
+    background: rgba(15, 2, 154,0);
+}
+ 
+ /* Set to non-editable (setEditable(false))! When editable, the style of the entire QComboBox */
+QComboBox:!editable {
+	color: rgb(255, 255, 255);
+     background:  rgb(53, 45, 93);
+}
+ 
+
+ /* When set to non-editable, click the style of the entire QComboBox */
+QComboBox:!editable:on {
+	color: rgb(255, 255, 255);
+     
+	background-color: qlineargradient(spread:pad, x1:0.453, y1:0.948955, x2:0.479, y2:0.0625, stop:0 rgba(146, 0, 127, 255), stop:1 rgba(61, 72, 255, 255));
+}
+ 
+ /* The style of the drop-down box when set to editable */
+QComboBox::drop-down:editable {
+    background:rgb(255, 255, 255);
+}
+ 
+ /* When set to editable, click the style of the drop-down box */
+QComboBox::drop-down:editable:on {
+    background: rgba(255, 255, 255,0);
+}</string>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>720</width>
+                  <height>720</height>
+                 </size>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>All Time</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>This Month</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Last Month</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>This Year</string>
+                 </property>
+                </item>
+               </widget>
+               <widget class="QToolButton" name="refreshBt2">
+                <property name="geometry">
+                 <rect>
+                  <x>420</x>
+                  <y>20</y>
+                  <width>41</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>...</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>../resources/images/blueTick.png</normaloff>../resources/images/blueTick.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>720</width>
+                  <height>720</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QToolButton" name="toolButton">
+               <property name="geometry">
+                <rect>
+                 <x>550</x>
+                 <y>20</y>
+                 <width>531</width>
+                 <height>391</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../resources/images/quoteImp.png</normaloff>../resources/images/quoteImp.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>720</width>
+                 <height>720</height>
+                </size>
+               </property>
+              </widget>
+              <zorder>toolButton</zorder>
+              <zorder>label_8</zorder>
+              <zorder>label_9</zorder>
+              <zorder>frame_3</zorder>
+             </widget>
+             <widget class="QFrame" name="frame_6">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>460</y>
+                <width>1021</width>
+                <height>741</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:18px;
+</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <widget class="QToolButton" name="refreshBt1">
+               <property name="geometry">
+                <rect>
+                 <x>950</x>
+                 <y>60</y>
+                 <width>41</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../resources/images/blueTick.png</normaloff>../resources/images/blueTick.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>720</width>
+                 <height>720</height>
+                </size>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_10">
+               <property name="geometry">
+                <rect>
+                 <x>50</x>
+                 <y>10</y>
+                 <width>461</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(61, 49, 97);
+
+color: rgb(53, 45, 93);
+font: 75 24pt &quot;MS Shell Dlg 2&quot;;
+font: 75 18pt &quot;Eras Bold ITC&quot;;
+</string>
+               </property>
+               <property name="text">
+                <string>Your Transactions History</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="filter1">
+               <property name="geometry">
+                <rect>
+                 <x>560</x>
+                 <y>60</y>
+                 <width>171</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QComboBox {
+         border: 0px solid gray; /* border */
+         border-radius: 10px; /* rounded corners */
+         padding: 1px 18px 1px 3px; /* font padding */
+         color: #000;
+
+         font: normal normal 15px &quot;Microsoft YaHei&quot;;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 3px;
+    outline:0px;
+    
+}
+ /* After the drop-down, the entire drop-down form style */
+QComboBox QAbstractItemView {
+         outline: 0px; /* virtual frame of selected item */
+    color:  rgb(255, 255, 255);
+         background-color: rgb(0, 255, 255);
+ /* The background color of the entire drop-down window */
+		
+	background-color: rgb(4, 2, 154);
+         selection-background-color: rgb(75, 72, 173)
+ }
+/*QComboBox QAbstractScrollArea QScrollBar::handle:vertical {
+         border-radius: 5px; /* rounded corners 
+         background: rgb(160,160,160); /* The background color of the small square is dark gray lightblue 
+}*/
+QComboBox QAbstractScrollArea QScrollBar::handle:vertical:hover {
+         background: rgb(90, 91, 93); /* the background color of the small square is yellow */
+}
+ 
+ /* When set to editable (setEditable(true)) editable, the style of the editable area */
+QComboBox:editable {
+    background: rgba(15, 2, 154,0);
+}
+ 
+ /* Set to non-editable (setEditable(false))! When editable, the style of the entire QComboBox */
+QComboBox:!editable {
+	color: rgb(255, 255, 255);
+     background: #4b48ad
+}
+ 
+
+ /* When set to non-editable, click the style of the entire QComboBox */
+QComboBox:!editable:on {
+	color: rgb(255, 255, 255);
+     
+	background-color: qlineargradient(spread:pad, x1:0.453, y1:0.948955, x2:0.479, y2:0.0625, stop:0 rgba(146, 0, 127, 255), stop:1 rgba(61, 72, 255, 255));
+}
+ 
+ /* The style of the drop-down box when set to editable */
+QComboBox::drop-down:editable {
+    background:rgb(255, 255, 255);
+}
+ 
+ /* When set to editable, click the style of the drop-down box */
+QComboBox::drop-down:editable:on {
+    background: rgba(255, 255, 255,0);
+}</string>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>720</width>
+                 <height>720</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>All Transactions</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Debits</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Credits</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Cashbacks</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QComboBox" name="filter2">
+               <property name="geometry">
+                <rect>
+                 <x>750</x>
+                 <y>60</y>
+                 <width>171</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QComboBox {
+         border: 0px solid gray; /* border */
+         border-radius: 10px; /* rounded corners */
+         padding: 1px 18px 1px 3px; /* font padding */
+         color: #000;
+
+         font: normal normal 15px &quot;Microsoft YaHei&quot;;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 3px;
+    outline:0px;
+    
+}
+ /* After the drop-down, the entire drop-down form style */
+QComboBox QAbstractItemView {
+         outline: 0px; /* virtual frame of selected item */
+    color:  rgb(255, 255, 255);
+         background-color: rgb(0, 255, 255);
+ /* The background color of the entire drop-down window */
+		
+	background-color: rgb(4, 2, 154);
+         selection-background-color: rgb(75, 72, 173)
+ }
+/*QComboBox QAbstractScrollArea QScrollBar::handle:vertical {
+         border-radius: 5px; /* rounded corners 
+         background: rgb(160,160,160); /* The background color of the small square is dark gray lightblue 
+}*/
+QComboBox QAbstractScrollArea QScrollBar::handle:vertical:hover {
+         background: rgb(90, 91, 93); /* the background color of the small square is yellow */
+}
+ 
+ /* When set to editable (setEditable(true)) editable, the style of the editable area */
+QComboBox:editable {
+    background: rgba(15, 2, 154,0);
+}
+ 
+ /* Set to non-editable (setEditable(false))! When editable, the style of the entire QComboBox */
+QComboBox:!editable {
+	color: rgb(255, 255, 255);
+     background: #4b48ad
+}
+ 
+
+ /* When set to non-editable, click the style of the entire QComboBox */
+QComboBox:!editable:on {
+	color: rgb(255, 255, 255);
+     
+	background-color: qlineargradient(spread:pad, x1:0.453, y1:0.948955, x2:0.479, y2:0.0625, stop:0 rgba(146, 0, 127, 255), stop:1 rgba(61, 72, 255, 255));
+}
+ 
+ /* The style of the drop-down box when set to editable */
+QComboBox::drop-down:editable {
+    background:rgb(255, 255, 255);
+}
+ 
+ /* When set to editable, click the style of the drop-down box */
+QComboBox::drop-down:editable:on {
+    background: rgba(255, 255, 255,0);
+}</string>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>720</width>
+                 <height>720</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>All Time</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>This Month</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Last Month</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>This Year</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QTableWidget" name="tableWidget">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>140</y>
+                 <width>981</width>
+                 <height>631</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">  QTableView {
+      selection-background-color: rgb(255,255,255);
+  }
+QTableView QTableCornerButton::section {
+      background: white;
+      border: 0px outset red;
+  }
+QTableView::item:selected { 
+	color:rgb(72, 49, 129);
+	background:white; 
+	 }
+QHeaderView::section {
+    background-color: white;
+    padding: 4px;
+   
+    border-style: none;
+   
+}
+
+QHeaderView::section:horizontal
+{
+    border-top: 0px solid #fffff8;
+}
+
+QHeaderView::section:vertical
+{
+    border-left: 0px solid #fffff8;
+}</string>
+               </property>
+               <property name="editTriggers">
+                <set>QAbstractItemView::NoEditTriggers</set>
+               </property>
+               <property name="selectionMode">
+                <enum>QAbstractItemView::SingleSelection</enum>
+               </property>
+               <property name="selectionBehavior">
+                <enum>QAbstractItemView::SelectRows</enum>
+               </property>
+               <property name="showGrid">
+                <bool>false</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>Date</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Activity</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Source/Destination</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Comment</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Debit</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Credit</string>
+                </property>
+               </column>
+              </widget>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="graphP">
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>220</y>
+          <width>391</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="manageFilesP">
+       <widget class="QFrame" name="frame_10">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>1021</width>
+          <height>741</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+border-radius:18px;
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QToolButton" name="addFileBt">
+         <property name="geometry">
+          <rect>
+           <x>870</x>
+           <y>10</y>
+           <width>91</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../resources/images/addFile.png</normaloff>../resources/images/addFile.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>225</width>
+           <height>225</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QTreeView" name="treeView">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>190</y>
+           <width>861</width>
+           <height>471</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">/*vertical style*/
+QScrollBar:vertical {
+    border:none;
+	background-color: rgba(59, 59, 90,0);
+    width:0px;
+    margin: 1px 0 1px 0;
+    border-radius:0px;
+}
+/*Handlebar vertically*/
+QScrollBar::handle:vertical {
+     
+	background-color: rgb(80, 8, 122);
+
+    border-radius:7px;
+}
+QScrollBar::handle:vertical:hover {
+    
+	background-color: rgb(255, 97, 187);
+}
+QScrollBar::handle:vertical:pressed {
+	background-color: rgb(170, 255, 255);
+}
+</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAsNeeded</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <attribute name="headerCascadingSectionResizes">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="headerDefaultSectionSize">
+          <number>300</number>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>110</y>
+           <width>461</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(61, 49, 97);
+color: rgb(53, 45, 93);
+font: 75 24pt &quot;MS Shell Dlg 2&quot;;
+font: 75 18pt &quot;Eras Bold ITC&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Your Files</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>760</x>
+           <y>20</y>
+           <width>111</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(61, 49, 97);
+color: rgb(53, 45, 93);
+font: 75 18pt &quot;MS Shell Dlg 2&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>Add File</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="exitBt">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>10</y>
+      <width>101</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../resources/images/redCross2.png</normaloff>../resources/images/redCross2.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

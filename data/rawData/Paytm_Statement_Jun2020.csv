@@ -1,0 +1,5 @@
+Date,Activity,Source/Destination,Wallet Txn ID,Comment,Debit,Credit,Transaction Breakup,Status
+10/5/2020 8:29,Paid for order,Paytm BSNL Mobile Recharge Order #11039409684,30036292575,,99,,,SUCCESS
+30/05/2020 08:29:08,Added to Loyalty Wallet,Paytm First Games Order #GRTCASH-913603524,30036298602,,,20,Loyalty Wallet: 20,SUCCESS
+30/05/2020 08:28:05,Paid for order,Paytm BSNL Mobile Recharge Order #11039409684,30036292575,,99,,,SUCCESS
+21/05/2020 11:25:10,Added to wallet,Paytm Order #10987115108,29946848233,,,100,,SUCCESS
